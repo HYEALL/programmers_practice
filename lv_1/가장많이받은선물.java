@@ -7,7 +7,7 @@ public class 가장많이받은선물 {
         // key : 이름, value : friends 배열의 index
         // giftIndex, recode의 index(식별자 역할)를 파악하기 위한 HashMap
         HashMap<String, Integer> map = new HashMap<>(); // 이름, index 쌍으로 map 생성
-        for (int i = 0; i < friends.length; i++) { // map 생성하여 map.get으로 접근 가능
+        for (int i = 0; i < friends.length; i++) { // map 생성하여 map.get으로 접근하여 인덱스 반환
             map.put(friends[i], i);
         }
 
